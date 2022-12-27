@@ -1,0 +1,18 @@
+body {
+    margin: 0px
+}
+.cotiDolar {
+    display: flex;
+   
+}
+
+.title {
+    display: flex;
+    background-color: gray;
+    font-weight: bold;
+}
+
+.dolarTypes {
+    display: flex;
+    flex-direction: column;
+}

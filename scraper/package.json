@@ -1,0 +1,22 @@
+{
+  "name": "arg-cotiza",
+  "version": "1.0.0",
+  "description": "scraper for currency prices.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lnagel0/arg-cotiza.git"
+  },
+  "author": "Lucas Nagel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lnagel0/arg-cotiza/issues"
+  },
+  "homepage": "https://github.com/lnagel0/arg-cotiza#readme",
+  "dependencies": {
+    "puppeteer": "^19.4.1"
+  }
+}

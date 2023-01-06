@@ -11,13 +11,25 @@ const puppeteer = require('puppeteer');
         let dolarTuristaI = document.querySelector('[data-indice="/dolarturista"]').querySelector('.value').innerText
         let dolarBlueCompraI = document.querySelector('[data-indice="/dolar/informal"]').querySelector('.data-compra').innerText
         let dolarBlueVentaI = document.querySelector('[data-indice="/dolar/informal"]').querySelector('.data-venta').innerText
-        
+        let dolarCCLI = document.querySelector('[data-indice="/dolarrava/cl"]').querySelector('.data-valor').innerText
+        let dolarMEPI = document.querySelector('[data-indice="/dolarrava/mep"]').querySelector('.data-valor').innerText
+        let dolarOficialCompraI = document.querySelector('[data-indice="/dolar/oficial"]').querySelector('.data-compra').innerText
+        let dolarOficialVentaI = document.querySelector('[data-indice="/dolar/oficial"]').querySelector('.data-venta').innerText
+        let dolarMayoristaCompraI = document.querySelector('[data-indice="/dolar/mayorista"]').querySelector('.data-compra').innerText
+        let dolarMayoristaVentaI = document.querySelector('[data-indice="/dolar/mayorista"]').querySelector('.data-venta').innerText
+
             
 
         let final = {
             dolarTurista: dolarTuristaI,
             dolarBlueCompra: dolarBlueCompraI,
-            dolarBlueVenta: dolarBlueVentaI
+            dolarBlueVenta: dolarBlueVentaI,
+            dolarCCL: dolarCCLI,
+            dolarMEP: dolarMEPI,
+            dolarOficialCompra: dolarOficialCompraI,
+            dolarOficialVenta: dolarOficialVentaI,
+            dolarMayoristaCompra: dolarMayoristaCompraI,
+            dolarMayositaVenta: dolarMayoristaVentaI
         }
 
         return final

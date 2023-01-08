@@ -16,7 +16,9 @@ const puppeteer = require('puppeteer');
         let dolarOficialCompraI = document.querySelector('[data-indice="/dolar/oficial"]').querySelector('.data-compra').innerText
         let dolarOficialVentaI = document.querySelector('[data-indice="/dolar/oficial"]').querySelector('.data-venta').innerText
         let dolarMayoristaCompraI = document.querySelector('[data-indice="/dolar/mayorista"]').querySelector('.data-compra').innerText
-        let dolarMayoristaVentaI = document.querySelector('[data-indice="/dolar/mayorista"]').querySelector('.data-venta').innerText
+        let dolarMayoristaVentaI = document.querySelector('[data-indice="/dolar/mayorista"]').querySelector('.data-venta').innerText 
+        let dolarBancoNacionCompraI = document.querySelector('[data-indice="/dolarnacion/"').querySelector('.data-compra').innerText
+        let dolarBancoNacionVentaI = document.querySelector('[data-indice="/dolarnacion/"').querySelector('.data-venta').innerText
 
             
 
@@ -29,7 +31,9 @@ const puppeteer = require('puppeteer');
             dolarOficialCompra: dolarOficialCompraI,
             dolarOficialVenta: dolarOficialVentaI,
             dolarMayoristaCompra: dolarMayoristaCompraI,
-            dolarMayositaVenta: dolarMayoristaVentaI
+            dolarMayoristaVenta: dolarMayoristaVentaI,
+            dolarBancoNacionCompra: dolarBancoNacionCompraI,
+            dolarBancoNacionVenta: dolarBancoNacionVentaI
         }
 
         return final

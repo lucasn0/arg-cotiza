@@ -1,2 +1,4 @@
-# Cotizaciones argentinas
-A list of the most important values of the market (for an argentine)
+# Valores Hoy
+General market prices of different assets, including crypto, stocks, bonds, and more. Focused on the argentine user.
+
+Project in the make.

@@ -1,6 +1,43 @@
-body {
-    margin: 0px
+html {
+    height: 100%;
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
 }
+
+.navbar {
+    overflow: hidden;
+    background-color: #000b21;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar img {
+    width: 15%;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 8px 10px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    font: 1.2rem "Fira Sans", sans-serif;
+}
+
+body {
+    margin: 5%;
+}
+
+h1 {
+    font: 1.2rem "Fira Sans", sans-serif;
+}
+
 .cotiDolar {
     display: flex;
    

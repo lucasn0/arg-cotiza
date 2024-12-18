@@ -1,11 +1,11 @@
 html {
     height: 100%;
-    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
 .navbar {
     overflow: hidden;
-    background-color: #000b21;
+    background-color: #130033;
     position: fixed;
     top: 0;
     left: 0;
@@ -25,9 +25,16 @@ html {
     display: block;
     color: aliceblue;
     text-align: center;
+    float: left;
     padding: 8px 10px;
+    margin: 12px;
     text-decoration: none;
-    font: 1.2rem "Fira Sans", sans-serif;
+    font: 1vw "Fira Sans", sans-serif;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.5;
 }
 
 body {
@@ -35,12 +42,35 @@ body {
 }
 
 h1 {
-    font: 1.2rem "Fira Sans", sans-serif;
+    font: 1.8rem "Fira Sans", sans-serif;
+    color: aliceblue;
+    margin: 2px;
+
 }
 
-.cotiDolar {
+.cedears {
     display: flex;
-   
+    align-items: left;
+}
+
+.cedears > div {
+    font: 1.6rem "Fira Sans", sans-serif;
+    color: aliceblue;
+    background-color: #130033;
+    border: 2px solid rgb(24, 0, 41);
+    margin: 5px;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+    width: 130px;
+    height: 60px;
+    text-align: center;
+}
+
+.cedears > div div {
+    font: 1rem "Fira Sans", sans-serif;
+    color: aliceblue;
 }
 
 .title {
